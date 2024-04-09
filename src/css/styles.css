@@ -7,3 +7,33 @@
 @import url('./reset.css');
 @import url('./1-timer.css');
 @import url('./2-snackbar.css');
+h1{
+  font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    margin-bottom: 30px;
+}
+
+
+a {
+  font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+a:hover{
+  color: #4E75FF;
+}
+.link-page {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+.link-page:hover{
+  color: #4E75FF;
+}

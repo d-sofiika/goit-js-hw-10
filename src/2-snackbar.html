@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page 3</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <section>
@@ -13,19 +14,33 @@
     </section>
 
     <form class="form">
-      <label>
+      <label class="label-time">
         Delay (ms)
         <input class="input-time" type="number" name="delay" required />
       </label>
 
       <fieldset>
         <legend>State</legend>
-        <label>
-          <input type="radio" name="state" value="fulfilled" required />
+        <label class="input-wrap">
+          <input
+            class="input-check"
+            type="radio"
+            name="state"
+            value="fulfilled"
+            required
+          />
+
           Fulfilled
         </label>
-        <label>
-          <input type="radio" name="state" value="rejected" required />
+        <label class="input-wrap">
+          <input
+            class="input-check"
+            type="radio"
+            name="state"
+            value="rejected"
+            required
+          />
+
           Rejected
         </label>
       </fieldset>

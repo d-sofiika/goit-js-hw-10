@@ -24,17 +24,31 @@ function sentPromise(event) {
   promise.then(
     value => {
       iziToast.success({
-        title: 'Fulfilled',
-        message: `✅ Fulfilled promise in ${delay}ms`,
-        backgroundColor: 'green',
+        title: 'OK',
+        titleColor: 'white',
+        message: `Fulfilled promise in ${delay}ms`,
+        backgroundColor: '#59A10D',
+        messageColor: 'white',
+        balloon: true,
+        position: 'topRight',
+        progressBarColor: 'black',
+        transitionIn: 'bounceInRight',
+        
       });
     },
 
     error => {
       iziToast.error({
         title: 'Error',
-        message: `❌ Rejected promise in ${delay}ms`,
-        backgroundColor: 'red',
+        titleColor: 'white',
+        message: ` Rejected promise in ${delay}ms`,
+        backgroundColor: '#EF4040',
+        messageColor: 'white',
+        balloon: true,
+        position: 'topRight',
+        progressBarColor: 'black',
+        transitionIn: 'bounceInRight',
+        
       });
     }
   );
