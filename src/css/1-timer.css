@@ -36,6 +36,9 @@
 .btn-start:hover{
     background-color: #6C8CFF;
 }
+.btn-start:disabled{
+    background-color: grey;
+}
 
 .timer {
     display:flex;

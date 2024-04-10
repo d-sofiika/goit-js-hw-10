@@ -16,8 +16,12 @@ const startBtn = document.querySelector("[data-start]");
 
 let userSelectedDate = 0;
 let intervalId;
+startBtn.disabled = true;
 
-startBtn.addEventListener("click", startTimer);
+startBtn.addEventListener("click", () => {
+    
+  startTimer();
+});
 
 
 // flatpickr
